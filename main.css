@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR&display=swap');
+
+
+.header {
+    margin: 0;
+    padding: 0;
+    font-family: "Playwrite AR", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-teg {
+    text-align: center;
+    font-size: 30px;
+    color: yellowgreen;
+}
+
+.pancake-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+}
+
+.ul-pancake {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.logo-info {
+    width: 40px;
+    height: 40px;
+}
+
+.container {
+    display: block;
+    margin: 0 auto; 
+    width: fit-content; 
+    margin-top: 20px;
+}
+
+.li {
+    margin-left: 20px;
+}
+
+.forLi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.li-info {
+    margin: 0; 
+    text-align: center;
+    font-size: 18px;
+    color: red;
+}
+
+/* main */
+
+
+.main {
+    background-color: ghostwhite;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.ingridients {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.ingridient {
+    background-color: #eef;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+.hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+.step {
+    background-color: #e0ffe0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #c0c0c0;
+}
+
+.forLishka {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
